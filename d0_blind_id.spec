@@ -42,7 +42,6 @@ Development files needed for compiling against %{name}.
 autoreconf -i
 
 %configure2_5x \
-	--disable-rijndael \
 	--disable-static
 %make
 
@@ -60,4 +59,4 @@ autoreconf -i
 %dir %{_includedir}/%{name}
 %{_includedir}/%{name}/*.h
 %{_libdir}/*.so
-%{_libdir}/pkgconfig/%{name}.pc
+%{_libdir}/pkgconfig/*.pc
