@@ -60,3 +60,15 @@ autoreconf -i
 %{_includedir}/%{name}/*.h
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/*.pc
+
+
+%changelog
+* Sun Apr 22 2012 Tomasz Pawel Gajc <tpg@mandriva.org> 0.6-2
++ Revision: 792694
+- enable rijndael support
+- update docs
+
+* Sun Apr 22 2012 Tomasz Pawel Gajc <tpg@mandriva.org> 0.6-1
++ Revision: 792646
+- import d0_blind_id
+
