@@ -5,7 +5,7 @@
 Summary:	Blind-ID library for user identification
 Name:		d0_blind_id
 Version:	0.6
-Release:	4
+Release:	5
 License:	GPLv2+
 Group:		Games/Arcade
 Url:		http://git.xonotic.org/?p=xonotic/d0_blind_id.git;a=summary
