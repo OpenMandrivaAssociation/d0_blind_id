@@ -11,6 +11,11 @@ Group:		Games/Arcade
 Url:		https://github.com/divVerent/d0_blind_id/
 Source0:	https://github.com/divVerent/d0_blind_id/archive/v1.0/%{name}-%{version}.tar.gz
 Requires:	%{libname} = %{version}-%{release}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gmp-devel
 
 %description
